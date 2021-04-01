@@ -1,0 +1,113 @@
+/*circles*/
+/*use percentage for circle position*/
+
+
+.circle1 {
+    border-radius: 50%;
+    background-color: white;
+    width: 4vh;
+    height: 4vh;
+    position: fixed;
+    top: 30%;
+    right: 40%;
+    opacity: 0;
+    visibility: hidden;
+    animation: pulse 4s infinite cubic-bezier(.36, .11, .89, .32);
+    
+    transition-property: opacity ;
+  -webkit-transition-duration: 7s;
+  -moz-transition-duration: 7s;
+  -o-transition-duration: 7s;
+  transition-duration: 7s;
+  }
+  
+
+  .circle2 {
+    border-radius: 50%;
+    background-color: white;
+    width: 4vh;
+    height: 4vh;
+    position: fixed;
+    top: 30%;
+    left: 41%;
+    opacity: 0;
+    visibility: hidden;
+    animation: pulse 4s infinite cubic-bezier(.36, .11, .89, .32);
+    
+    transition-property: opacity ;
+    -webkit-transition-duration: 7s;
+    -moz-transition-duration: 7s;
+    -o-transition-duration: 7s;
+    transition-duration: 7s;
+     }
+
+  .circle3 {
+    border-radius: 50%;
+    background-color: white;
+    width: 4vh;
+    height: 4vh;
+    position: fixed;
+    top: 60%;
+    right: 40%;
+    opacity: 0;
+    visibility: hidden;
+    animation: pulse 4s infinite cubic-bezier(.36, .11, .89, .32);
+    
+    transition-property: opacity ;
+  -webkit-transition-duration: 7s;
+  -moz-transition-duration: 7s;
+  -o-transition-duration: 7s;
+  transition-duration: 7s;
+  }
+
+  .circle4 {
+    border-radius: 50%;
+    background-color: white;
+    width: 4vh;
+    height: 4vh;
+    position: fixed;
+    top: 60%;
+    left: 41%;
+    opacity: 0;
+    visibility: hidden;
+    animation: pulse 4s infinite cubic-bezier(.36, .11, .89, .32);
+    
+    transition-property: opacity ;
+  -webkit-transition-duration: 7s;
+  -moz-transition-duration: 7s;
+  -o-transition-duration: 7s;
+  transition-duration: 7s;
+    }
+
+@keyframes pulse {
+from {
+  transform: scale(.5, .5);
+  opacity: .5;
+}
+to {
+  transform: scale(2.5, 2.5);
+  opacity: 0;
+}
+}
+
+/* .fade-animated {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;}
+
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+} */

@@ -1,0 +1,161 @@
+.hoverpop1 {
+    position: fixed;
+    display: inline-block;
+    top: 30.5%;
+    right: 39%;
+    cursor: pointer;
+  }
+  .hoverpop1 .hoverpoptext1 {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    top: -5px;
+    left: 105%;
+    transition: opacity .5s;
+    }
+  
+    .hoverpop1 .hoverpoptext1::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 100%; 
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent white transparent transparent;
+      }
+  
+  .hoverpop1:hover .hoverpoptext1 {
+    visibility: visible;
+    opacity:1;
+  }
+
+
+  .hoverpop2 {
+    position: fixed;
+    display: inline-block;
+    top: 30.5%;
+    right: 60%;
+    cursor: pointer;
+  }
+  .hoverpop2 .hoverpoptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 100%;
+    opacity: 0;
+    transition: opacity .5s;
+    }
+  
+    .hoverpop2 .hoverpoptext2::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 100%; 
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent white;
+      }
+  
+  .hoverpop2:hover .hoverpoptext2 {
+    visibility: visible;
+    opacity:1;
+  }
+
+  .hoverpop3 {
+    position: fixed;
+    display: inline-block;
+    top: 60.5%;
+    right: 39%;
+    cursor: pointer;
+  }
+  .hoverpop3 .hoverpoptext3 {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    top: -5px;
+    left: 105%;
+    transition: opacity .5s;
+    }
+  
+    .hoverpop3 .hoverpoptext3::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 100%; 
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent white transparent transparent;
+      }
+  
+  .hoverpop3:hover .hoverpoptext3 {
+    visibility: visible;
+    opacity:1;
+  }
+
+  
+  .hoverpop4 {
+    position: fixed;
+    display: inline-block;
+    top: 60.5%;
+    right: 59%;
+    cursor: pointer;
+  }
+  .hoverpop4 .hoverpoptext4 {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 100%;
+    opacity: 0;
+    transition: opacity .5s;
+    }
+  
+    .hoverpop4 .hoverpoptext4::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 100%; 
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent white;
+      }
+  
+  .hoverpop4:hover .hoverpoptext4 {
+    visibility: visible;
+    opacity:1;
+  }

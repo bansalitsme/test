@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bgstyle.css">
+<link rel="stylesheet" href="circle.css">
+<link rel="stylesheet" href="hoverpop.css">
+<link rel="stylesheet" href="styles-popup.css">
+</head>
+
+
+
+<body> 
+  <video id="onvideo" muted>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+
+  
+<img src= "logo.png" class= "logo" id= "logo">
+<img src= "spine.png" class= "spine" id="spine">
+<div class = "center"> <button onclick="illuminate(); showlogo(); showspine(); setTimeout(showme,5000)" class = "button button2" id= "but"> Ignite </button> </div>
+
+
+<div class="circle1" style="animation-delay: 6s"></div>
+<div class="circle1" style="animation-delay: 7s"></div>
+<div class="circle1" style="animation-delay: 8s"></div>
+<div class= "hoverpop1">
+  <span class="hoverpoptext1">Tooltip text</span>
+<div class="circle1 trigger"  id= "0" style="animation-delay: 9s"></div>
+</div>
+
+
+<div class="circle2" style="animation-delay: 6s"></div>
+<div class="circle2" style="animation-delay: 7s"></div>
+<div class="circle2" style="animation-delay: 8s"></div>
+
+<div class= "hoverpop2">
+  <span class="hoverpoptext2">Tooltip text</span>
+<div class="circle2 trigger"  id= "1" style="animation-delay: 9s"></div>
+</div>
+
+
+<div class="circle3" style="animation-delay: 6s"></div>
+<div class="circle3" style="animation-delay: 7s"></div>
+<div class="circle3" style="animation-delay: 8s"></div>
+<div class= "hoverpop3">
+  <span class="hoverpoptext3">Tooltip text</span>
+<div class="circle3 trigger"  id= "2" style="animation-delay: 9s"></div>
+</div>
+
+
+<div class="circle4" style="animation-delay: 6s"></div>
+<div class="circle4" style="animation-delay: 7s"></div>
+<div class="circle4" style="animation-delay: 8s"></div>
+<div class= "hoverpop4">
+  <span class="hoverpoptext4">Tooltip text</span>
+<div class="circle4 trigger"  id= "3" style="animation-delay: 9s"></div>
+</div>
+
+
+<!-- first popup -->
+<div class="modal">
+  <div class="modal-content">
+      <span class="close-button" id= "100">×</span>
+      <h1>Hello, I am a modal!</h1>
+  </div>
+</div>
+
+<!-- second popup -->
+<div class="modal">
+  <div class="modal-content">
+      <span class="close-button" id= "101">×</span>
+      <h1>Hello, I am a modal 2!</h1>
+  </div>
+</div>
+
+<!-- third popup -->
+<div class="modal">
+  <div class="modal-content">
+      <span class="close-button" id= "102">×</span>
+      <h1>Hello, I am a modal 3!</h1>
+  </div>
+</div>
+
+<!-- fourth popup -->
+<div class="modal">
+  <div class="modal-content">
+      <span class="close-button" id= "103">×</span>
+      <h1>Hello, I am a modal 4!</h1>
+  </div>
+</div>
+
+</body> 
+<script src = "bgscript.js"> </script>
+<script src="showcircle.js"></script>
+<script src="showstuff.js"></script>
+<script src="function-popup.js"></script>
+
+</html>
